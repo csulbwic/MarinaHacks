@@ -193,7 +193,8 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  /* max-height: 26px; */
+  max-height: 45px;
 }
 
 .main-pages {
@@ -232,17 +233,18 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
+  padding: 10px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  /* color: #fff; */
   background: #1bb1dc;
   color: #fff;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  border: 5px white;
+  background: rgb(15, 142, 201);
 }
 
 /*--------------------------------------------------------------
