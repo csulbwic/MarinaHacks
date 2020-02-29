@@ -1569,18 +1569,18 @@ h6 {
 
 /* trying to make bubbles  */
 
-#particles-1 {
+#back-bubbles {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; }
+}
 
-  #particles-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; }
+#front-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
