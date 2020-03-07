@@ -909,7 +909,7 @@ p {
       .single-services .services-content .services-title a {
         font-size: 20px; } }
     .single-services .services-content .services-title a:hover {
-      color: #361CC1; }
+      color: skyblue; }
   .single-services .services-content .text {
     margin-top: 30px; }
     @media (max-width: 767px) {

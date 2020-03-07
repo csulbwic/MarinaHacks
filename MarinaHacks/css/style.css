@@ -485,7 +485,7 @@ h6 {
   font-size: 15px;
   padding-bottom: 60px;
   color: #535074;
-  width: 50%;
+  width: 70%;
 }
 
 /* Section with background
@@ -640,10 +640,6 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-}
-
-.fontchange {
-     font-size: 20px;
 }
 
 #why-us .why-us-content .features {
