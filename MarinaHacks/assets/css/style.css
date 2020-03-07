@@ -930,7 +930,7 @@ p {
     .single-services .services-content .more:hover {
       color: #361CC1; }
   .single-services:hover {
-    border-color: #FE7A7B; }
+    border-color: skyblue; }
     .single-services:hover .services-icon .shape {
       -webkit-transform: rotate(25deg);
       -moz-transform: rotate(25deg);

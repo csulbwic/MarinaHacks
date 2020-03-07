@@ -351,3 +351,4 @@ particlesJS("front-bubbles", {
   },
   "retina_detect": !0
 });
+
