@@ -642,6 +642,10 @@ h6 {
   padding: 60px 0;
 }
 
+.fontchange {
+     font-size: 20px;
+}
+
 #why-us .why-us-content .features {
   margin: 0 0 15px 0;
   padding: 0;
