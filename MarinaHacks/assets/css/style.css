@@ -930,7 +930,8 @@ p {
   .single-services:hover {
     border-color: skyblue;}
     .single-services:hover .services-icon .shape {
-        animation: shake 1.0s;
+        animation: shake 1.0s;}
+        .single-services:hover .services-title a {color:skyblue;}
 
 /*===========================
       05.ABOUT css 
