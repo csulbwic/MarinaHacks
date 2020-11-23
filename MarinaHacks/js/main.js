@@ -352,7 +352,9 @@ particlesJS("front-bubbles", {
   "retina_detect": !0
 });
 
-// Sponors Section //
+/*--------------------------------------------------------------
+# Sponsor Section
+--------------------------------------------------------------*/
 var __sf = $(".sponsorsFooter ul span");
 var __sf_cont = $(".sponsorsFooter ul");
 var __title = $("#sponsorTitle");
@@ -368,4 +370,4 @@ __sf.mouseenter(function() {
   var __setTitle = $(__title).attr("data-default-title");
   __title.html(__setTitle);
 });
-// End of Sponsors Section //
+////
