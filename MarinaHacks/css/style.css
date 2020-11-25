@@ -44,7 +44,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #d582ac;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -165,8 +165,9 @@ h6 {
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: rgb(15, 142, 201);
+  /* background-color: rgb(15, 142, 201); */
   box-shadow: 0px 0px 30px rgba(116, 155, 165, 0.3);
+  background-image: linear-gradient( 135deg, #623AA2 10%, #F97794 100%);
 }
 
 #header.header-scrolled #topbar,
@@ -182,6 +183,11 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+#header h2{
+  color: white;
+  font-weight: 100;
 }
 
 #header .logo h1 a,
@@ -209,16 +215,24 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  /* background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat; */
-  background: #f5f8fd url("../img/water_intro.png") center top no-repeat;
-  background-size: cover;
+  /* background: #f5f8fd url("../img/water_intro.png") center top no-repeat;
+  background-size: cover; */
+  background-image: linear-gradient(to top,#ffffff 30%, #d582ac  100%);
+
 }
 
 #intro .intro-info h2 {
-  color: white;
+  color: #d582ac;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+}
+
+#intro .intro-info h3{
+  font-size: 20px;
+  font-weight: 50;
+  padding-left: 10px;
+  color: #d582ac;
 }
 
 #intro .intro-info h2 span {
@@ -234,17 +248,37 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 40px;
+  margin: 10px;
   border-radius: 4px;
   transition: 0.5s;
   /* color: #fff; */
-  background: #1bb1dc;
+  background: #d582ac;
   color: #fff;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
   border: 5px white;
-  background: rgb(15, 142, 201);
+  background: #FADBD8;
+}
+
+.read_more a{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #000;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.read_more a:hover {
+  opacity: .5;
 }
 
 /*--------------------------------------------------------------
@@ -288,7 +322,7 @@ h6 {
 .main-nav .active > a,
 .main-nav li:hover > a {
   /* color: #1bb1dc; */
-  color: rgb(2, 71, 131);
+  color: #FADBD8;
   text-decoration: none;
 }
 
@@ -1486,6 +1520,7 @@ h6 {
   }
 
   #header .logo h1 {
+    color: white;
     font-size: 28px;
     padding: 8px 0;
   }
@@ -1539,6 +1574,11 @@ h6 {
   #intro .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+  }
+
+  #intro h3{
+    font-size: 34px;
+    color: #ffffff;
   }
 
   .section-header p {
