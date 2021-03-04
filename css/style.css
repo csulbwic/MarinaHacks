@@ -854,6 +854,8 @@ h6 {
 
 #team .box {
   padding: 30px;
+  width: 100%;
+  height: intrinsic;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -1327,6 +1329,102 @@ h6 {
 }
 
 #sponsors .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/* Schedule Section
+--------------------------------*/
+
+#schedule {
+  padding: 60px 0;
+}
+
+#schedule .member {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#schedule .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  /* width: 75%; */
+  border-radius: 20px;
+  margin: 0 10px 40px 10px;
+  background: #ffffff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#schedule .member .member-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  padding: 35px 0;
+  background: rgba(29, 28, 41, 0.6);
+}
+
+#schedule .member .member-info-content {
+  transition: margin 0.2s;
+  margin: 20px;
+  height: 40px;
+  transition: height 0.4s;
+}
+
+#schedule .member:hover .member-info {
+  transition: 0.4s;
+}
+
+#schedule .member:hover .member-info-content {
+  height: 80px;
+}
+
+#schedule .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#schedule .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#schedule .member .social {
+  margin-top: 15px;
+}
+
+#schedule .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#schedule .member .social a:hover {
+  color: #1bb1dc;
+}
+
+#schedule .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
