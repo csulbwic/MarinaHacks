@@ -687,7 +687,7 @@ h6 {
 --------------------------------*/
 
 #why-us {
-  padding: 60px 0;
+  padding: 0px 0;
 }
 
 #why-us .why-us-content .features {
@@ -1115,26 +1115,31 @@ h6 {
 --------------------------------*/
 
 #pricing {
-  padding: 80px 0;
+  font-weight: lighter;
+  padding: 40px 0;
 }
 
 #pricing .card {
   border: 0;
-  border-radius: 0px;
+  border-radius: 35px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
   transition: all .3s ease-in-out;
   padding: 36px 0;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin: 45px;
   position: relative;
 }
 
 #pricing .card:after {
   content: '';
   position: absolute;
+  border-radius: 35px;
   top: 0;
   left: 0;
   width: 0%;
-  height: 5px;
-  background-color: #1bb1dc;
+  height: 3px;
+  background-color: #d582ac;
   transition: 0.5s;
 }
 
@@ -1156,6 +1161,8 @@ h6 {
 }
 
 #pricing .card .card-title {
+  font-weight: lighter;
+  font-size: 20px;
   margin-bottom: 16px;
   color: #535074;
 }
@@ -1173,9 +1180,16 @@ h6 {
 }
 
 #pricing .card h3 {
-  font-size: 64px;
+  font-size: 64px
+  font-weight: lighter;
   margin-bottom: 0px;
-  color: #535074;
+  color: #d582ac;
+}
+
+#pricing .card h5 {
+  font-weight: lighter;
+  margin-bottom: 30px;
+  color: #d582ac;
 }
 
 #pricing .card h3 .currency {
@@ -1206,12 +1220,12 @@ h6 {
   letter-spacing: 1px;
   border-radius: 3px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #d582ac;
   color: #fff;
 }
 
 #pricing .card .btn:hover {
-  background: #0a98c0;
+  background: #FFF6F6;
 }
 
 /* Frequently Asked Questions Section
