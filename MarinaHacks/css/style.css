@@ -623,6 +623,100 @@ h6 {
   transition: .5s;
 }
 
+/* Contact Us Section
+--------------------------------*/
+
+#contact {
+  padding: 80px 0;
+}
+
+#contact .about-content {
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-top: 40px;
+}
+
+#contact .about-content h2 {
+  color: #545454;
+  font-size: 38px;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+#contact .about-content p {
+  margin: 15px;
+  font-weight: 100;
+}
+
+#contact .about-content h3 {
+  color: #d582ac;
+  font-weight: 10;
+  font-size: 20px;
+  display:flex;
+}
+
+#contact .about-content a {
+  color: #d582ac;
+  font-weight: 100;
+}
+
+#contact .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact .about-content ul li {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#contact .about-content ul li i {
+  padding-right: 4px;
+  color: #d582ac;
+}
+
+#contact .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#contact .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#contact .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#contact .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#contact .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
 /* Services Section
 --------------------------------*/
 
