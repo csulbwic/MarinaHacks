@@ -161,11 +161,13 @@ h6 {
   z-index: 997;
 }
 
+
 #header.header-scrolled,
-#header.header-pages {
+#header.header-pages,
+#header.logo-scrolled{
   height: 70px;
   padding: 15px 0;
-  /* background-color: rgb(15, 142, 201); */
+    display: inline-block;
   box-shadow: 0px 0px 30px rgba(116, 155, 165, 0.3);
   background-image: linear-gradient( 135deg, #623AA2 10%, #F97794 100%);
 }
@@ -174,6 +176,7 @@ h6 {
 #header.header-pages #topbar {
   display: none;
 }
+
 
 #header .logo h1 {
   font-size: 36px;
@@ -187,20 +190,21 @@ h6 {
 
 #header h2{
   color: white;
+  opacity: 0;
   font-weight: 100;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: white;
+  opacity: 1;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  /* max-height: 26px; */
-  max-height: 45px;
+  opacity: 1;
+    display: none;
 }
 
 .main-pages {
@@ -215,15 +219,18 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/finalbackdrop.png") center top no-repeat;
+  background: #f5f8fd url("../img/parallaxback.png") center top no-repeat ;
   background-size: cover;
   /* background-image: linear-gradient(to top,#ffffff 30%, #d582ac  100%); */
+}
 
+#intro .backdrop{
+  opacity: 0.75;
 }
 
 #intro .intro-info h2 {
   color: #d582ac;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   font-size: 48px;
   font-weight: 100;
 }
