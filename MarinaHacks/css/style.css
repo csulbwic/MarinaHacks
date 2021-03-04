@@ -215,9 +215,9 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  /* background: #f5f8fd url("../img/water_intro.png") center top no-repeat;
-  background-size: cover; */
-  background-image: linear-gradient(to top,#ffffff 30%, #d582ac  100%);
+  background: #f5f8fd url("../img/backdrop.png") center top no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(to top,#ffffff 30%, #d582ac  100%); */
 
 }
 
@@ -225,7 +225,7 @@ h6 {
   color: #d582ac;
   margin-bottom: 40px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 #intro .intro-info h3{
@@ -242,18 +242,17 @@ h6 {
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
   display: inline-block;
   padding: 10px 40px;
-  margin: 10px;
-  border-radius: 4px;
+  margin: 15px;
+  border-radius: 30px;
+  border: 1px solid #d582ac;
   transition: 0.5s;
-  /* color: #fff; */
-  background: #d582ac;
-  color: #fff;
+  background: #fff;
+  color: #d582ac;
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -1563,7 +1562,7 @@ h6 {
   }
 
   #intro .intro-img {
-    width: 80%;
+    width: 100%;
   }
 
   #intro .intro-info {
