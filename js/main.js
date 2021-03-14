@@ -30,8 +30,11 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      // $('#header').addClass('logo-scrolled');
+      document.getElementById("logo").style.opacity = 1;
     } else {
       $('#header').removeClass('header-scrolled');
+      document.getElementById("logo").style.opacity = 0;
     }
   });
 

@@ -17,7 +17,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0a98c0;
+  color: #d582ac;
   outline: none;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
+  border: 6px solid #d582ac;
   border-top: 6px solid #1bb1dc;
   border-radius: 50%;
   width: 60px;
@@ -136,7 +136,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #0084AA;
+  color: #d582ac;
 }
 
 #topbar .social-links a:first-child {
@@ -167,9 +167,9 @@ h6 {
 #header.logo-scrolled{
   height: 70px;
   padding: 15px 0;
-    display: inline-block;
+  display: inline-block;
   box-shadow: 0px 0px 30px rgba(116, 155, 165, 0.3);
-  background-image: linear-gradient( 135deg, #623AA2 10%, #F97794 100%);
+  background-image: linear-gradient( 135deg, #d582ac 50%, #d7bdf0 100%);
 }
 
 #header.header-scrolled #topbar,
@@ -196,14 +196,17 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: white;
+  color: #d582ac;
   opacity: 1;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
-  opacity: 1;
+}
+
+.logo{
+  opacity: 0;
 }
 
 .main-pages {
@@ -218,9 +221,9 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/parallaxback.png") center top no-repeat ;
+  /* background: #f5f8fd url("../img/parallaxback.png") center top no-repeat ; */
   background-size: cover;
-  /* background-image: linear-gradient(to top,#ffffff 30%, #d582ac  100%); */
+  background-image: linear-gradient(to top,#d7bdf0 30%, #d582ac  100%);
 }
 
 #intro .logo{
@@ -257,7 +260,7 @@ h6 {
   padding: 10px 40px;
   margin: 15px;
   border-radius: 30px;
-  border: 1px solid #d582ac;
+  /* border: 1px solid #d582ac; */
   transition: 0.5s;
   background: #fff;
   color: #d582ac;
@@ -266,7 +269,8 @@ h6 {
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
   border: 5px white;
-  background: #FADBD8;
+  background-color:  #d7bdf0;
+  color: #d7bdf0;
 }
 
 .read_more a{
