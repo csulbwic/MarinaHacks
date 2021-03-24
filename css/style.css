@@ -1347,7 +1347,14 @@ h6 {
 
 #schedule {
   padding: 60px 0;
+  text-align: center;
+
 }
+
+#schedule img{
+    width: 60%;
+}
+
 
 #schedule .member {
   text-align: center;
@@ -1360,7 +1367,7 @@ h6 {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  /* width: 75%; */
+  width: 60%;
   border-radius: 20px;
   margin: 0 10px 40px 10px;
   background: #ffffff;
