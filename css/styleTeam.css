@@ -814,8 +814,20 @@ h6 {
   background-color: #d582ac;
 }
 
-#services .committee{
-  background-color: #ccadeb;
+#services .sponsorship{
+  background-color: #CC99CC;
+}
+
+#services .website{
+    background-color: #8F5E99;
+}
+
+#services .design{
+    background-color: #CD96CD;
+}
+
+#services .programming{
+    background-color: #7A378B;
 }
 
 #services .title {
