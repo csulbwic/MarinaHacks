@@ -756,7 +756,11 @@ h6 {
 
 #services .box:hover .back {
   opacity: 1;
-  display: block;
+  top: 10%;
+  left: 20%;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
 }
 
 #services .front {
@@ -765,6 +769,7 @@ h6 {
 
 #services .back {
   transition: 0.3s;
+  text-align: center;
   display: none;
 }
 
