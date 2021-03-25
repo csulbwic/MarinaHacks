@@ -752,23 +752,22 @@ h6 {
 
 #services .box:hover .front {
   opacity: 0;
+  display: none;
 }
 
 #services .box:hover .back {
   opacity: 1;
-  top: 10%;
-  left: 20%;
-  position: absolute;
+  position: relative;
   display: inline-block;
   text-align: center;
 }
 
 #services .front {
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 #services .back {
-  transition: 0.3s;
+  transition: 0.7s;
   text-align: center;
   display: none;
 }
@@ -787,9 +786,10 @@ h6 {
   color: #d582ac;
 }
 
-#services .icon i {
-  font-size: 35px;
-  line-height: 1;
+#services i {
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
 }
 
 
@@ -822,6 +822,11 @@ h6 {
   font-weight: lighter;
   margin-bottom: 15px;
   font-size: 20px;
+}
+
+#services .back .description {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #services .title a {
