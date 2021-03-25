@@ -750,6 +750,24 @@ h6 {
   transform: scale(1.1);
 }
 
+#services .box:hover .front {
+  opacity: 0;
+}
+
+#services .box:hover .back {
+  opacity: 1;
+  display: block;
+}
+
+#services .front {
+  transition: 0.3s;
+}
+
+#services .back {
+  transition: 0.3s;
+  display: none;
+}
+
 #services .icon img {
   margin: 0 auto 20px auto;
   /* padding: 12px; */
@@ -758,6 +776,10 @@ h6 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+#services  a {
+  color: #d582ac;
 }
 
 #services .icon i {
@@ -774,8 +796,8 @@ h6 {
 #services .tag{
   font-weight: lighter;
   color: white;
-  margin: 10px;
-  font-size: 15px;
+  margin: 6px;
+  font-size: 13px;
   border-radius: 20px;
   padding: 12px;
   width: 70%;
