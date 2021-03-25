@@ -76,6 +76,7 @@
     }
   });
 
+
   // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.main-nav, .mobile-nav');

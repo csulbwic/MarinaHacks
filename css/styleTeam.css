@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -761,10 +760,6 @@ h6 {
   height: 150px;
 }
 
-/* #services img{
-    border-radius: 50%;
-} */
-
 #services .icon i {
   font-size: 35px;
   line-height: 1;
@@ -774,6 +769,26 @@ h6 {
 #services h3{
   font-weight: lighter;
   color: white;
+}
+
+#services .tag{
+  font-weight: lighter;
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 12px;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+}
+
+#services .organizer{
+  background-color: #d582ac;
+}
+
+#services .committee{
+  background-color: #ccadeb;
 }
 
 #services .title {
