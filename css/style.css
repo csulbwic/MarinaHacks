@@ -39,6 +39,7 @@ h6 {
   padding: 0;
 }
 
+
 /* Back to top button */
 
 .back-to-top {
@@ -272,6 +273,7 @@ h6 {
   background-color:  #d7bdf0;
   color: #d7bdf0;
 }
+
 
 .read_more a{
   position: absolute;
@@ -1522,7 +1524,7 @@ h6 {
 }
 
 #pricing .card h3 {
-  font-size: 64px
+  font-size: 64px;
   font-weight: lighter;
   margin-bottom: 0px;
   color: #d582ac;
@@ -1568,6 +1570,17 @@ h6 {
 
 #pricing .card .btn:hover {
   background: #FFF6F6;
+}
+
+/* Attend Event button */
+a.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  /* text-decoration: line-through; */
+}
+
+.deadline {
+  text-decoration: line-through;
 }
 
 /* Frequently Asked Questions Section
