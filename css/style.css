@@ -854,6 +854,7 @@ h6 {
 /* Team Section
 --------------------------------*/
 
+
 #team {
   padding: 60px 0 40px 0;
 }
@@ -872,7 +873,26 @@ h6 {
   text-align: center;
 }
 
+#team .button {
+  padding: 30px;
+  width: 100%;
+  height: intrinsic;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background-color: #f0c0d9;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
 #team .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#team .button:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -911,6 +931,10 @@ h6 {
   line-height: 28px;
   margin-bottom: 0;
   text-align: center;
+}
+
+.pink-background {
+  background-color: #e6acca;
 }
 
 /* Call To Action Section
