@@ -1520,15 +1520,15 @@ h6 {
 }
 
 
-/* Pricing Section
+/* Attend Section
 --------------------------------*/
 
-#pricing {
+#attend {
   font-weight: lighter;
   padding: 40px 0;
 }
 
-#pricing .card {
+#attend .card {
   border: 0;
   border-radius: 35px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
@@ -1540,7 +1540,7 @@ h6 {
   position: relative;
 }
 
-#pricing .card:after {
+#attend .card:after {
   content: '';
   position: absolute;
   border-radius: 35px;
@@ -1552,56 +1552,56 @@ h6 {
   transition: 0.5s;
 }
 
-#pricing .card:hover {
+#attend .card:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-#pricing .card:hover:after {
+#attend .card:hover:after {
   width: 100%;
 }
 
-#pricing .card .card-header {
+#attend .card .card-header {
   background-color: white;
   border-bottom: 0px;
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
-#pricing .card .card-title {
+#attend .card .card-title {
   font-weight: lighter;
   font-size: 20px;
   margin-bottom: 16px;
   color: #535074;
 }
 
-#pricing .card .card-block {
+#attend .card .card-block {
   padding-top: 0;
   text-align: center;
 }
 
-#pricing .card .list-group-item {
+#attend .card .list-group-item {
   border: 0px;
   padding: 6px;
   color: #413e66;
   font-weight: 300;
 }
 
-#pricing .card h3 {
+#attend .card h3 {
   font-size: 64px;
   font-weight: lighter;
   margin-bottom: 0px;
   color: #d582ac;
 }
 
-#pricing .card h5 {
+#attend .card h5 {
   font-weight: lighter;
   margin-bottom: 30px;
   color: #d582ac;
 }
 
-#pricing .card h3 .currency {
+#attend .card h3 .currency {
   font-size: 30px;
   position: relative;
   font-weight: 400;
@@ -1609,17 +1609,17 @@ h6 {
   letter-spacing: 0px;
 }
 
-#pricing .card h3 .period {
+#attend .card h3 .period {
   font-size: 16px;
   color: #6c67a3;
   letter-spacing: 0px;
 }
 
-#pricing .card .list-group {
+#attend .card .list-group {
   margin-bottom: 15px;
 }
 
-#pricing .card .btn {
+#attend .card .btn {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -1633,7 +1633,7 @@ h6 {
   color: #fff;
 }
 
-#pricing .card .btn:hover {
+#attend .card .btn:hover {
   background: #FFF6F6;
 }
 
@@ -1974,11 +1974,11 @@ h6 {
     padding-top: 30px;
   }
 
-  #pricing {
+  #attend {
     padding-bottom: 30px;
   }
 
-  #pricing .card {
+  #attend .card {
     margin-bottom: 50px;
   }
 }
